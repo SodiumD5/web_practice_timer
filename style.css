@@ -1,0 +1,166 @@
+html,
+body,
+head {
+    height: 99.4%;
+    margin: 0px;
+}
+
+.material-icons-round.icon {
+    font-size: 50px;
+}
+
+#title {
+    text-align: center;
+    font-size: 100px;
+    margin-top: 200px;
+}
+
+#doing {
+    border-bottom: 5px solid #3d3d3d;
+    width: 500px;
+    height: 50px;
+    margin: auto;
+}
+#minute_button {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 50px;
+}
+
+#time-button {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    height: 150px;
+}
+
+#up {
+    margin-bottom: 10px;
+}
+
+#down {
+    margin-top: 10px;
+}
+
+#play-stop {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#reset {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    list-style: none;
+}
+input:focus {
+    outline: none;
+}
+button:focus {
+    outline: none;
+}
+/* tap부분 css*/
+#tap {
+    float: right;
+    position: relative;
+    width: 500px;
+    height: 100%;
+    z-index: 1;
+    margin-top:5px;
+}
+#taps-align {
+    margin-right: 120px;
+    margin-left: 120px;
+}
+#tap-open {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+}
+#to-do-list {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    border-bottom: 3px solid #3d3d3d;
+}
+
+#todo_input {
+    margin-top: 30px;
+    border: 3px solid #3d3d3d;
+    height: 30px;
+    width: 250px;
+}
+
+#todo-holder {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+ 
+/* 밑부분 css*/
+#bottom {
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    height: 100px;
+    
+}
+#bottom_align {
+    text-align: center;
+    margin : 30px;
+}
+#darkmode {
+    width: 50px;
+    height: 50px;
+    margin-right : 50px;
+}
+#home {
+    width: 50px;
+    height: 50px;
+    margin-left : 50px;
+    margin-right : 50px;
+}
+#todo_reset {
+    width: 50px;
+    height: 50px;
+    margin-left : 50px;
+}
+/*색 조절 파트 모음 */
+.backcolor {
+    background-color: #dcdde1;
+    /*background-color: rgba(0,0,0, 0.4);*/
+}
+
+.tap_color{
+    background: linear-gradient(to right bottom,#93f9b9,#1d976c);
+}
+
+.bottom_color{
+    background-color: #d3d3d3;
+}
+button {
+    border: none;
+    background-color:transparent;
+    color: #3d3d3d;
+    /*background-color: rgba(0,0,0, 0.4);*/
+}
+
+#main {
+    color: #3d3d3d;
+}

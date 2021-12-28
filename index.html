@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+            rel="stylesheet"
+        />
+        <title>timer</title>
+    </head>
+    <body class="backcolor" id="body">
+        <div id="main">   
+            총 공부시간 :
+            <span id="total_hour">0시간</span>
+            <span id="total_minute">0분</span>
+            <span id="total_secend">0초</span>
+            <div id="title">
+                <div id="timer">Timer</div>
+                <div id="doing"></div>
+                <div id="time-button">
+                    <div></div>
+                    <div id="setting-time"></div>
+                    <div id="minute_button">
+                        <button id="up" class="backcolor">
+                            <span class="material-icons-round icon"
+                                >expand_less</span
+                            >
+                        </button>
+                        <button id="down" class="backcolor">
+                            <span class="material-icons-round icon"
+                                >keyboard_arrow_down</span
+                            >
+                        </button>
+                    </div>
+                    <div></div>
+                    <div>
+                        <button id="play-stop" class="backcolor"></button>
+                        <button id="reset" class="backcolor">
+                            <span class="material-icons-round icon">close</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom" class="bottom_color">
+                <div id="bottom_align">
+                    <button id="darkmode"><span class="material-icons-round">dark_mode</span></button>
+                    <button id="home"><span class="material-icons-round">home</span></button>
+                    <button id="todo_reset"><span class="material-icons-round">restart_alt</span></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="tap" class="tap_color">
+            <button id="tap-open">
+                <span class="material-icons-round icon">menu</span>
+            </button>
+            <form id="taps-align">
+                <div id="to-do-list">To Do List</div>
+                <input type="text" value="" id="todo_input" placeholder="계획을 입력하세요"/>
+            </form>
+            <ul id="todo-holder"></ul>
+        </div>
+
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="todolist.js"></script>
+        <script type="text/javascript" src="mode.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </body>
+</html>
